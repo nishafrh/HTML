@@ -54,7 +54,8 @@
     <p><strong>Huruf Tebal</strong></p>
     
     <!-- Membuat Huruf menjadi Miring -->
-    <p><em>Huruf Tebal</em></p>
+    <p><em>Huruf Miring</em></p>
+    <p><cite>Huruf Miring</cite></p>
 
     <hr>
 
@@ -116,7 +117,6 @@
             </tr>
         </tbody>
     </table>
-
     <hr>
 
     <!-- Membuat Form -->
@@ -128,6 +128,7 @@
             akan memasukkan input, harus menghapus value terlebih dahulu -->
         </div>
         <br>
+        
         <div>
             <label for="">Last Name</label>
             <input type="text" name="lastName" placeholder="Enter Last Name">
@@ -135,25 +136,32 @@
             akan memasukkan input, dapat langsung mengisi pada form --> 
         </div>
         <br>
+        
         <div>
             <label for="">Email</label>
-            <input type="email" name="testTest"> 
+            <input type="email" name="email" placeholder="Enter Email"> 
         </div>
         <br>
+        
         <div>
             <label for="">Message</label>
             <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <!-- Jika input berupa teks yang panjang, maka 'input' menjadi 'textarea'-->
         </div>
         <br>
+        
         <div>
             <label for="">Gender</label>
+            <!-- Untuk membuat input berupa pilihan/option -->
             <select name="gender" id="">
+                <!-- Untuk membuat pilihan/option -->
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="others">Others</option>
             </select>
         </div>
         <br>
+        
         <div>
             <label for="">Age</label>
             <input type="number">
@@ -161,12 +169,72 @@
             <input type="number" value="20">-->
         </div>
         <br>
+        
         <div>
             <label for="">Birthday</label>
             <input type="date">
         </div>
         <br>
+        
         <input type="submit" name="submit" value="Submit">
+        <!-- isi dari pada value menjadi tulisan pada input sumit -->
+    
+        <!-- Type for Input -->
+    <!-- text, email, number, date, submit -->
     </form>
+    <hr>
+
+    <!-- Menampilkan Gambar -->
+    <!-- menggunakan tag img -->
+    <!-- atribut src berisi sumber gambar yang akan ditampilkan -->
+    <!-- atribut alt berisi alternatif text atau keterangan gambar -->
+    <!-- atribut width dan height berisi ukuran gambar -->
+    <!-- atribut width dan height dapat digunakan untuk mengubah ukuran gambar -->
+    
+    <img src="BP House 2.jpg" alt="House">
+    <br>
+    <img src="https://3.bp.blogspot.com/-V_PvgpRqQuU/Wq1TWJfXgeI/AAAAAAAAXbA/BOgc8TcwYuwP_dIn1EMIhznDOaZkeQO6wCLcBGAs/s1600/Screen%2BShot%2B2018-03-17%2Bat%2B12.34.05%2BPM.png" alt="">
+    <br>
+    <img src="D:\OneDrive - Politeknik Negeri Bandung\PICTURES\OTHERS\Desktop Wallpaper Shop, Spirit, Art, Hd Image, Picture, Background, 90819a.png" alt="">
+    <br>
+    <img src="BP House 2.jpg" alt="House" width="300">
+    <br>
+    <img src="BP House 2.jpg" alt="House" height="300">
+    <br>
+    <img src="BP House 2.jpg" alt="House" height="300" width="200">
+    <br>
+
+    <!-- agar gambar dapat diklik atau berfokus pd gambar -->
+    <a href="BP House 2.jpg">
+        <img src="BP House 2.jpg" alt="House" width="200">
+    </a>
+    <br>
+
+    <a href="BP House 2.jpg" target="_blank">
+        <img src="BP House 2.jpg" alt="House" width="200">
+    </a>
+    <br>
+
+    <img src="" alt="Kalau Fotonya Tidak Ada">
+    <hr>
+
+    <!-- Membuat Quotation -->
+    <!-- Quote menjorok ke dalam -->
+    <blockquote cite="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dolor, nisi voluptatum quos necessitatibus fugiat quo, at, consequuntur obcaecati nesciunt voluptas asperiores non laudantium maxime incidunt error quisquam saepe quas.
+    </blockquote>
+
+    <!-- Qquote tidak menjorok ke dalam -->
+    <quote cite="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dolor, nisi voluptatum quos necessitatibus fugiat quo, at, consequuntur obcaecati nesciunt voluptas asperiores non laudantium maxime incidunt error quisquam saepe quas.
+    </quote>
+
+    <!-- Membuat keterangan pada suatu teks -->
+    <p>
+        The <abbr title="Digital Informasi Futuristik">DIF</abbr> is awesome!
+    </p>
+
+    <!-- Agar teks berada di tengah -->
+    
 </body>
 </html>
